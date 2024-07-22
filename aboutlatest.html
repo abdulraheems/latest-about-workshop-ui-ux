@@ -1,17 +1,18 @@
 
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
-	<title>About - Innoovatum</title>
+	<title>UX/UI Workshop</title>
 
 	<!-- Meta Tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="author" content="Webestica.com">
-	<meta name="description" content="Eduport- LMS, Education and Course Theme">
+	<meta name="description" content="Innoovatum UX-UI WOrkshop">
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="images/logo.webp">
+	<link rel="shortcut icon" href="{% static 'eduport/images/logo.webp'%}">
 
 	<!-- Google Font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,15 +20,15 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap">
 
 	<!-- Plugins CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
-	<link rel="stylesheet" type="text/css" href="assets/vendor/tiny-slider/tiny-slider.css">
-	<link rel="stylesheet" type="text/css" href="assets/vendor/glightbox/css/glightbox.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'eduport/assets/vendor/font-awesome/css/all.min.css'%}">
+	<link rel="stylesheet" type="text/css" href="{% static 'eduport/assets/vendor/bootstrap-icons/bootstrap-icons.css'%}">
+	<link rel="stylesheet" type="text/css" href="{% static 'eduport/assets/vendor/tiny-slider/tiny-slider.css'%}">
+	<link rel="stylesheet" type="text/css" href="{% static 'eduport/assets/vendor/glightbox/css/glightbox.css'%}">
 
 	
 
 	<!-- Theme CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'eduport/assets/css/style.css'%}">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,6 +42,13 @@
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+
+<style type="text/css">
+	p,li,ul,ol
+	{
+		font-size: 16px;
+	}
+</style>
     
 </head>
 
@@ -71,15 +79,15 @@
                 <!-- Main navbar START -->
                 <div class="navbar-collapse w-100 collapse" id="navbarCollapse">
 
-                    <!-- Nav Main menu START -->
+                    <!-- Nav Main menu START 
                     <ul class="navbar-nav navbar-nav-scroll mx-auto">
                         
-                        <!-- Nav item 4 Component-->
+                        <!-- Nav item 4 Component
                         <li class="nav-item"><a class="nav-link" href="docs/alerts.html">Services</a></li>
                         <li class="nav-item"><a class="nav-link" href="docs/alerts.html">Workshops</a></li>
                         <li class="nav-item"><a class="nav-link" href="docs/alerts.html">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="docs/alerts.html">Contact Us</a></li>
-                    </ul>
+                    </ul>-->
                     <!-- Nav Main menu END -->
 
                     
@@ -109,7 +117,7 @@ Main Banner START -->
 			<!-- Right image side START -->
 			<div class="col-lg-6">
 				<div class="card card-body bg-light p-1 text-center">
-          <img src="images/2_hd.webp" class="rounded-4" alt="..." style="height: auto;">
+          <img src="{% static 'eduport/images/2_hd.webp'%}" class="rounded-4" alt="..." style="height: auto;">
 				</div>
 			</div>
 			<!-- Right image side END -->
@@ -147,10 +155,10 @@ About START -->
 
 			<div class="col-md-4">
 				<!-- Image -->
-				<img src="images/scale3.webp" class="rounded-2 mb-1" alt="...">
-				<img src="images/scale2.webp" class="rounded-2 mb-1" alt="...">
-				<img src="images/scale1.webp" class="rounded-2 mb-1" alt="...">
-				<img src="images/scale8.webp" class="rounded-2 mb-1" alt="...">
+				<img src="{% static 'eduport/images/scale3.webp'%}" class="rounded-2 mb-1" alt="...">
+				<img src="{% static 'eduport/images/scale2.webp'%}" class="rounded-2 mb-1" alt="...">
+				<img src="{% static 'eduport/images/scale1.webp'%}" class="rounded-2 mb-1" alt="...">
+				<img src="{% static 'eduport/images/scale8.webp'%}" class="rounded-2 mb-1" alt="...">
 			</div>
 
 			<div class="col-md-8">
@@ -256,7 +264,7 @@ About founder START -->
                         
                          <!-- Image -->
                         
-				<img src="images/3_hd.webp" class="rounded-2 mb-1" alt="...">
+				<img src="{% static 'eduport/images/3_hd.webp'%}" class="rounded-2 mb-1" alt="...">
 				
 
                         
@@ -294,7 +302,7 @@ About founder END -->
                                     </div>
                                     <!-- Content and input -->
                                     <div class="col-lg-6 text-lg-end">
-                                        <img src="images/hd_4.webp" class="rounded-2 mb-1" alt="...">
+                                        <img src="{% static 'eduport/images/hd_4.webp'%}" class="rounded-2 mb-1" alt="...">
                                     </div>
                                 </div>
                             </div>
@@ -514,10 +522,10 @@ Gallery START-->
                                 <div class="card overflow-hidden">
                                     <div class="card-overlay-hover">
                                         <!-- Image -->
-                                        <img src="images/gallery/1.webp" class="rounded-3" alt="course image">
+                                        <img src="{% static 'eduport/images/gallery/1.webp'%}" class="rounded-3" alt="course image">
                                     </div>
                                     <!-- Full screen button -->
-                                    <a class="card-element-hover position-absolute w-100 h-100" data-glightbox data-gallery="gallery" href="images/gallery/1.webp">
+                                    <a class="card-element-hover position-absolute w-100 h-100" data-glightbox data-gallery="gallery" href="{% static 'eduport/images/gallery/1.webp'%}">
 								                    <i class="fas fa-expand fs-6 text-white position-absolute top-50 start-50 translate-middle bg-dark rounded-3 p-2 lh-1"></i>
 							                      </a>
                                 </div>
@@ -527,10 +535,10 @@ Gallery START-->
                                 <div class="card overflow-hidden">
                                     <div class="card-overlay-hover">
                                         <!-- Image -->
-                                        <img src="images/gallery/6.webp" class="rounded-3" alt="course image">
+                                        <img src="{% static 'eduport/images/gallery/6.webp'%}" class="rounded-3" alt="course image">
                                     </div>
                                     <!-- Full screen button -->
-                                    <a class="card-element-hover position-absolute w-100 h-100" data-glightbox data-gallery="gallery" href="images/gallery/10.webp">
+                                    <a class="card-element-hover position-absolute w-100 h-100" data-glightbox data-gallery="gallery" href="{% static 'eduport/images/gallery/6.webp'%}">
 								                    <i class="fas fa-expand fs-6 text-white position-absolute top-50 start-50 translate-middle bg-dark rounded-3 p-2 lh-1"></i>
 							                      </a>
                                 </div>
@@ -541,10 +549,10 @@ Gallery START-->
                                 <div class="card overflow-hidden">
                                     <div class="card-overlay-hover">
                                         <!-- Image -->
-                                        <img src="images/gallery/11.webp" class="rounded-3" alt="course image" style="height: 300px;">
+                                        <img src="{% static 'eduport/images/gallery/11.webp'%}" class="rounded-3" alt="course image" style="height: 300px;">
                                     </div>
                                     <!-- Full screen button -->
-                                    <a class="card-element-hover position-absolute w-100 h-100" data-glightbox data-gallery="gallery" href="images/gallery/11.webp">
+                                    <a class="card-element-hover position-absolute w-100 h-100" data-glightbox data-gallery="gallery" href="{% static 'eduport/images/gallery/11.webp'%}">
 								                    <i class="fas fa-expand fs-6 text-white position-absolute top-50 start-50 translate-middle bg-dark rounded-3 p-2 lh-1"></i>
 							                      </a>
                                 </div>
@@ -556,30 +564,30 @@ Gallery START-->
                         <div class="card overflow-hidden mb-2">
                             <div class="card-overlay-hover">
                                 <!-- Image -->
-                                <img src="images/scale7.webp" class="rounded-3" alt="course image">
+                                <img src="{% static 'eduport/images/scale7.webp'%}" class="rounded-3" alt="course image">
                             </div>
                             <!-- Full screen button -->
-                            <a class="card-element-hover position-absolute w-100 h-100" data-glightbox data-gallery="gallery" href="images/scale7.webp">
+                            <a class="card-element-hover position-absolute w-100 h-100" data-glightbox data-gallery="gallery" href="{% static 'eduport/images/scale7.webp'%}">
                              <i class="fas fa-expand fs-6 text-white position-absolute top-50 start-50 translate-middle bg-dark rounded-3 p-2 lh-1"></i>
                              </a>
                         </div>
                         <div class="card overflow-hidden mb-2">
                             <div class="card-overlay-hover">
                                 <!-- Image -->
-                                <img src="images/gallery/14.webp" class="rounded-3" alt="course image">
+                                <img src="{% static 'eduport/images/gallery/14.webp'%}" class="rounded-3" alt="course image">
                             </div>
                             <!-- Full screen button -->
-                            <a class="card-element-hover position-absolute w-100 h-100" data-glightbox data-gallery="gallery" href="images/gallery/14.webp">
+                            <a class="card-element-hover position-absolute w-100 h-100" data-glightbox data-gallery="gallery" href="{% static 'eduport/images/gallery/14.webp'%}">
                              <i class="fas fa-expand fs-6 text-white position-absolute top-50 start-50 translate-middle bg-dark rounded-3 p-2 lh-1"></i>
                              </a>
                         </div>
                         <div class="card overflow-hidden mb-2">
                             <div class="card-overlay-hover">
                                 <!-- Image -->
-                                <img src="images/gallery/17.webp" class="rounded-3" alt="course image" style="height:300px;">
+                                <img src="{% static 'eduport/images/gallery/17.webp'%}" class="rounded-3" alt="course image" style="height:300px;">
                             </div>
                             <!-- Full screen button -->
-                            <a class="card-element-hover position-absolute w-100 h-100" data-glightbox data-gallery="gallery" href="images/gallery/17.webp">
+                            <a class="card-element-hover position-absolute w-100 h-100" data-glightbox data-gallery="gallery" href="{% static 'eduport/images/gallery/17.webp'%}">
                              <i class="fas fa-expand fs-6 text-white position-absolute top-50 start-50 translate-middle bg-dark rounded-3 p-2 lh-1"></i>
                              </a>
                         </div>
@@ -594,10 +602,10 @@ Gallery START-->
                                 <div class="card overflow-hidden">
                                     <div class="card-overlay-hover">
                                         <!-- Image -->
-                                        <img src="images/gallery/5.webp" class="rounded-3" alt="course image">
+                                        <img src="{% static 'eduport/images/gallery/5.webp'%}" class="rounded-3" alt="course image">
                                     </div>
                                     <!-- Full screen button -->
-                                    <a class="card-element-hover position-absolute w-100 h-100" data-glightbox data-gallery="gallery" href="images/gallery/5.webp">
+                                    <a class="card-element-hover position-absolute w-100 h-100" data-glightbox data-gallery="gallery" href="{% static 'eduport/images/gallery/5.webp'%}">
 								                   <i class="fas fa-expand fs-6 text-white position-absolute top-50 start-50 translate-middle bg-dark rounded-3 p-2 lh-1"></i>
 							                     </a>
                                 </div>
@@ -609,10 +617,10 @@ Gallery START-->
                                 <div class="card overflow-hidden">
                                     <div class="card-overlay-hover">
                                         <!-- Image -->
-                                        <img src="images/gallery/4.webp" class="rounded-3" alt="course image">
+                                        <img src="{% static 'eduport/images/gallery/4.webp'%}" class="rounded-3" alt="course image">
                                     </div>
                                     <!-- Full screen button -->
-                                    <a class="card-element-hover position-absolute w-100 h-100" data-glightbox data-gallery="gallery" href="images/gallery/4.webp">
+                                    <a class="card-element-hover position-absolute w-100 h-100" data-glightbox data-gallery="gallery" href="{% static 'eduport/images/gallery/4.webp'%}">
 								                   <i class="fas fa-expand fs-6 text-white position-absolute top-50 start-50 translate-middle bg-dark rounded-3 p-2 lh-1"></i>
 							                     </a>
                                 </div>
@@ -623,10 +631,10 @@ Gallery START-->
                                 <div class="card overflow-hidden">
                                     <div class="card-overlay-hover">
                                         <!-- Image -->
-                                        <img src="images/gallery/25.webp" class="rounded-3" alt="course image" style="height:300px;">
+                                        <img src="{% static 'eduport/images/gallery/25.webp'%}" class="rounded-3" alt="course image" style="height:300px;">
                                     </div>
                                     <!-- Full screen button -->
-                                    <a class="card-element-hover position-absolute w-100 h-100" data-glightbox data-gallery="gallery" href="images/gallery/25.webp">
+                                    <a class="card-element-hover position-absolute w-100 h-100" data-glightbox data-gallery="gallery" href="{% static 'eduport/images/gallery/25.webp'%}">
 								                    <i class="fas fa-expand fs-6 text-white position-absolute top-50 start-50 translate-middle bg-dark rounded-3 p-2 lh-1"></i>
 							                      </a>
                                 </div>
@@ -747,14 +755,14 @@ Footer END -->
 <div class="back-top"><i class="fa-solid fa-arrow-up position-absolute top-50 start-50 translate-middle"></i></div>
 
 <!-- Bootstrap JS -->
-<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{% static 'eduportassets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js'%}"></script>
 
 <!-- Vendors -->
-<script src="assets/vendor/tiny-slider/tiny-slider.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.js"></script>
+<script src="{% static 'eduportassets/vendor/tiny-slider/tiny-slider.js'%}"></script>
+<script src="{% static 'eduportassets/vendor/glightbox/js/glightbox.js'%}"></script>
 
 <!-- Template Functions -->
-<script src="assets/js/functions.js"></script>
+<script src="{% static 'eduportassets/js/functions.js'%}"></script>
 
 </body>
 </html>
