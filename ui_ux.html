@@ -1,5 +1,6 @@
 
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
 	<title>UX/UI Workshop</title>
@@ -8,10 +9,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="author" content="Webestica.com">
-	<meta name="description" content="Eduport- LMS, Education and Course Theme">
+	<meta name="description" content="Innoovatum UX-UI WOrkshop">
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="images/logo.webp">
+	<link rel="shortcut icon" href="{% static 'eduport/images/logo.webp'%}">
 
 	<!-- Google Font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,15 +20,15 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap">
 
 	<!-- Plugins CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
-	<link rel="stylesheet" type="text/css" href="assets/vendor/tiny-slider/tiny-slider.css">
-	<link rel="stylesheet" type="text/css" href="assets/vendor/glightbox/css/glightbox.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'eduport/assets/vendor/font-awesome/css/all.min.css'%}">
+	<link rel="stylesheet" type="text/css" href="{% static 'eduport/assets/vendor/bootstrap-icons/bootstrap-icons.css'%}">
+	<link rel="stylesheet" type="text/css" href="{% static 'eduport/assets/vendor/tiny-slider/tiny-slider.css'%}">
+	<link rel="stylesheet" type="text/css" href="{% static 'eduport/assets/vendor/glightbox/css/glightbox.css'%}">
 
 	
 
 	<!-- Theme CSS -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="{% static 'eduport/assets/css/style.css'%}">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -108,7 +109,7 @@ Main banner START -->
 		<div class="row">
 			<div class="col-12">
 				<!-- Card item START -->
-				<div class="card overflow-hidden h-400px h-xl-600px rounded-3" style="background-image:url(images/gallery/3.webp); background-position: center left; background-size: cover;">
+				<div class="card overflow-hidden h-400px h-xl-600px rounded-3" style="background-image:url({% static 'eduport/images/gallery/3.webp); background-position: center left; background-size: cover;">
 					<!-- Background dark overlay -->
 					<div class="bg-overlay bg-dark opacity-6"></div>
 					
@@ -267,7 +268,7 @@ Page content START -->
 								<div class="hstack gap-2 mb-2 mb-xl-0">
 									<!-- Avatar -->
 									<div class="avatar flex-shrink-0">
-										<img class="avatar-img rounded-circle" src="images/sh.webp" alt="avatar">
+										<img class="avatar-img rounded-circle" src="{% static 'eduport/images/sh.webp'%}" alt="avatar">
 									</div>
 									<!-- Info -->
 									<div>
@@ -291,7 +292,7 @@ Page content START -->
 								<div class="hstack gap-2 mb-2 mb-xl-0">
 									<!-- Avatar -->
 									<div class="avatar flex-shrink-0">
-										<img class="avatar-img rounded-circle" src="images/abd.webp" alt="avatar">
+										<img class="avatar-img rounded-circle" src="{% static 'eduport/images/abd.webp'%}" alt="avatar">
 									</div>
 									<!-- Info -->
 									<div>
@@ -314,7 +315,7 @@ Page content START -->
 								<div class="hstack gap-2 mb-2 mb-xl-0">
 									<!-- Avatar -->
 									<div class="avatar flex-shrink-0">
-										<img class="avatar-img rounded-circle" src="images/arnew.webp" alt="avatar">
+										<img class="avatar-img rounded-circle" src="{% static 'eduport/images/arnew.webp'%}" alt="avatar">
 									</div>
 									<!-- Info -->
 									<div>
@@ -337,7 +338,7 @@ Page content START -->
 								<div class="hstack gap-2 mb-2 mb-xl-0">
 									<!-- Avatar -->
 									<div class="avatar flex-shrink-0">
-										<img class="avatar-img rounded-circle" src="images/nl.webp" alt="avatar">
+										<img class="avatar-img rounded-circle" src="{% static 'eduport/images/nl.webp'%}" alt="avatar">
 									</div>
 									<!-- Info -->
 									<div>
@@ -843,15 +844,15 @@ Footer END -->
 <div class="back-top"><i class="fa-solid fa-arrow-up position-absolute top-50 start-50 translate-middle"></i></div>
 
 <!-- Bootstrap JS -->
-<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="{% static 'eduport/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- Template Functions -->
-<script src="assets/js/functions.js"></script>
+<script src="{% static 'eduport/assets/js/functions.js"></script>
 
 
 <!-- Vendors -->
-<script src="assets/vendor/tiny-slider/tiny-slider.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.js"></script>
+<script src="{% static 'eduport/assets/vendor/tiny-slider/tiny-slider.js"></script>
+<script src="{% static 'eduport/assets/vendor/glightbox/js/glightbox.js"></script>
 
 
 
